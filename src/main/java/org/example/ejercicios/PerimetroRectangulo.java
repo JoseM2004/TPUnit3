@@ -1,6 +1,6 @@
 package org.example.ejercicios;
 
-public class CalculaPerimetroRectangulo1 {
+public class PerimetroRectangulo {
 	record Rectangulo(double base, double altura) {}
 	public static void main(String[] args) {
 		Rectangulo rectangulo = new Rectangulo(4.0, 6.0);

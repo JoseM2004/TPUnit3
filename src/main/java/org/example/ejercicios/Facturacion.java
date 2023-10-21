@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-public class Facturaciom1 {
+public class Facturacion {
 	record Factura(String cliente, LocalDate fechaFactura, List<Double> precioProducto) {
 	}
 
